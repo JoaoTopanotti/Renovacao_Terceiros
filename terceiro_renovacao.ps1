@@ -7,13 +7,13 @@ $alertDays = @(1..30)
 # Configuração do servidor SMTP 
 $smtpServer = "smtp.office365.com"
 $smtpPort = 587
-$from = "notificati@fs.agr.br"
-$password = "2q:WO4I.3Uc5|/V"
-$userName = "notificati@fs.agr.br"
+$from = "" # Email do remetente
+$password = "" # Senha do remetente
+$userName = "" # Email do remetente
 $subject = "Renovação de Acesso Rede FS - Terceiros"
 $subject2 = "Renovação de Acesso Rede FS - Terceiros (sem gestor)"
-$defaultTo = "denis.henrique@fs.agr.br"
-$cc = "deividy.machado@fs.agr.br"
+$defaultTo = "" # Email para envio padrão
+$cc = "" # Email para cópia
 
 # Coleta todos os usuários com contas expirando nos próximos 30 dias
 $users = @()
