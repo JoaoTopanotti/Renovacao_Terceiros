@@ -2,7 +2,7 @@
 
 # Dias para mandar e-mail 
 $dateToday = Get-Date
-$alertDays = @(1..30)
+$alertDays = @(1, 3, 5, 10)
 
 # Configuração do servidor SMTP 
 $smtpServer = "smtp.office365.com"
