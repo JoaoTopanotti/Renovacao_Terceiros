@@ -15,7 +15,7 @@ if (!$terceiro) {
     exit
 }
 
-# Agora procurar o gestor no AD, com base no e-mail
+# Procura o gestor no AD com base no e-mail
 $gestor = Get-ADUser -Filter { Mail -eq $EmailGestor } -Properties DistinguishedName
 
 if (!$gestor) {
